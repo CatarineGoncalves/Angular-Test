@@ -1,0 +1,30 @@
+
+
+<h2>Angular - Test</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Code</th>
+            <th>Rating</th>
+            <th>Release Date</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let course of course">
+            <th>{{course.imageUrl}}</th>
+            <th>{{course.name}}</th>
+            <th>{{course.price}}</th>
+            <th>{{course.code}}</th>
+            <th>{{course.rating}}</th>
+            <th>{{course.releaseDate}}</th>
+        </tr>
+    </tbody>
+
+
+</table>
